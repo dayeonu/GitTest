@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class 함수문제 {
+
+	public static void main(String[] args) {
+
+		/*		
+			메인함수
+			input 을 통해 나이를 입력 받아야함.
+			
+			스캔, age 변수 
+		*/	
+	
+		Scanner sc = new Scanner(System.in);
+		int age = sc.nextInt();
+		
+		int num = add ( 10,20);
+		System.out.println(num);
+	 
+		
+		
+	public static add(int age, int fee) {
+		
+		return age,fee ;
+	}
+		
+	}
+
+}

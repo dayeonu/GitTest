@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class bus {
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		int age = (int)(Math.random()*99)+1; 
+		
+		int charge = 1500;
+		int rate = 0;
+		int i = 0;
+		System.out.println("나이:" + age);
+		
+		if(age>=3) 
+			i = charge * 0; 
+		
+		System.out.println("요금" + i);
+	}	
+}

@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class num_text {
+
+	public static void main(String[] args) {
+
+		Scanner sc= new Scanner(System.in);
+
+		int num, sum;
+		
+		num = (int)(Math.random()*99)+1; 
+					
+	}
+
+}

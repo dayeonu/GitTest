@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class bus {
+
+	public static void main(String[] args) {
+
+		int age = (int)(Math.random()*99)+1; 
+		double rate = 0;
+		int charge = 1500;
+		System.out.println("나이:" + age);
+
+		if(0<=age && 3<=age) {
+			rate = charge*0;
+			
+		} else if(4<=age && 13<=age) {
+				rate = charge*0.5;
+		
+		}		else if(14<=age && 19<=age) {
+					rate = charge*0.75;
+
+		}			else if(20<=age) {
+						rate = charge;
+					
+				
+		}
+		System.out.println("금액:" + (int)rate);
+		
+	}
+}

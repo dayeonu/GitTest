@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 3 elements to &apos;20220404/src&apos;&#x0D;&#x0A;- Original project: &apos;Day20220401_1&apos;&#x0D;&#x0A;- Destination element: &apos;20220404/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     OperatorEx1.java&#x0D;&#x0A;     OperatorEx2.java&#x0D;&#x0A;     OperatorEx3.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="=20220404/src" element1="/src&lt;{OperatorEx1.java" element2="/src&lt;{OperatorEx2.java" element3="/src&lt;{OperatorEx3.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1649042080785" units="3" version="1.0"/>
+</session>

@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class bus {
+
+	public static void main(String[] args) {
+
+		int age = (int)(Math.random()*99)+1; 
+		
+		int charge = 1500;
+		int rate = 0;
+		System.out.println("³ªÀÌ:" + age);
+		 
+}
