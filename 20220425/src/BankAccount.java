@@ -63,6 +63,11 @@ class MainClass{
 		lee.cheakBalance();
 		System.out.println("---lee통장");
 		System.out.println();
+		
+		lee = kim; 	//kim 이 lee를 쳐다보게 되고  k속성을 쳐다보게됨. 
+		lee.cheakBalance();
+		lee.deposit(10000); 
+		lee.cheakBalance();
 //		
 //		//BankAccount 인스턴스의 멤버변수 deposit의 값을 10000원으로 한다.
 //		bank.deposit(10000); 
