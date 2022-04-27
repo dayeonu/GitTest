@@ -1,9 +1,0 @@
-
-
-public class Snippet {
-	public static void main(String[] args) {
-		case 0 : case 1 : case 2 : case 3 : 
-				num = charge * (int)discount;
-		
-	}
-}

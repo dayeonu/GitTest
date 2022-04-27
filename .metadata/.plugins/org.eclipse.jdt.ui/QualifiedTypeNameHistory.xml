@@ -12,4 +12,6 @@
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="BankAccount"/>
     <fullyQualifiedTypeName name="Tv"/>
+    <fullyQualifiedTypeName name="Sports"/>
+    <fullyQualifiedTypeName name="com.ezen.Sedan"/>
 </qualifiedTypeNameHistroy>
