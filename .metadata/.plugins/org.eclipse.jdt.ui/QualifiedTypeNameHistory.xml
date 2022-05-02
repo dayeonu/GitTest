@@ -14,4 +14,9 @@
     <fullyQualifiedTypeName name="Tv"/>
     <fullyQualifiedTypeName name="Sports"/>
     <fullyQualifiedTypeName name="com.ezen.Sedan"/>
+    <fullyQualifiedTypeName name="org.jsoup.select.Elements"/>
+    <fullyQualifiedTypeName name="org.jsoup.nodes.Element"/>
+    <fullyQualifiedTypeName name="org.jsoup.Jsoup"/>
+    <fullyQualifiedTypeName name="org.jsoup.nodes.Document"/>
+    <fullyQualifiedTypeName name="jdk.internal.misc.FileSystemOption"/>
 </qualifiedTypeNameHistroy>
