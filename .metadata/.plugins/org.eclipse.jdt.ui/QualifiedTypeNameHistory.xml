@@ -19,4 +19,9 @@
     <fullyQualifiedTypeName name="org.jsoup.Jsoup"/>
     <fullyQualifiedTypeName name="org.jsoup.nodes.Document"/>
     <fullyQualifiedTypeName name="jdk.internal.misc.FileSystemOption"/>
+    <fullyQualifiedTypeName name="SamsungLG.SamsungTV"/>
+    <fullyQualifiedTypeName name="sun.util.resources.cldr.ext.LocaleNames_lg"/>
+    <fullyQualifiedTypeName name="SamsungLG.LgTv"/>
+    <fullyQualifiedTypeName name="LGSamsung.BeanFactory"/>
+    <fullyQualifiedTypeName name="LGSamsung.TV"/>
 </qualifiedTypeNameHistroy>

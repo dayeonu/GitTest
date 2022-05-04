@@ -1,30 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="jsoup"/>
+		<item key="selection" value=""/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="jsoup"/>
-			<item value="html"/>
-			<item value="this.pa"/>
-			<item value="sport"/>
-			<item value="sprot"/>
-			<item value="run"/>
-			<item value="stop"/>
-			<item value="pass"/>
-			<item value="passengerCoun"/>
-			<item value="sedan"/>
-			<item value="car"/>
-			<item value="heigth"/>
-			<item value="final scanner"/>
-			<item value="random\"/>
-			<item value="random"/>
+			<item value="float"/>
+			<item value="pink"/>
+			<item value="w"/>
+			<item value="w\"/>
+			<item value="auto"/>
+			<item value="cols"/>
+			<item value="ck"/>
+			<item value="href"/>
+			<item value="href\"/>
+			<item value="ㅗㄱㄷㄹ"/>
+			<item value="중첩"/>
+			<item value="getCounter"/>
+			<item value="th"/>
+			<item value="td"/>
+			<item value="실질"/>
 		</list>
 		<list key="replacehistory">
+			<item value="25px"/>
+			<item value="td"/>
+			<item value="th"/>
 			<item value="DayEng"/>
 			<item value=""/>
 			<item value="DayKor"/>
@@ -35,8 +38,8 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="716"/>
-		<item key="DIALOG_Y_ORIGIN" value="269"/>
+		<item key="DIALOG_X_ORIGIN" value="575"/>
+		<item key="DIALOG_Y_ORIGIN" value="197"/>
 		<item key="DIALOG_WIDTH" value="288"/>
 		<item key="DIALOG_HEIGHT" value="391"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
