@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Layouts</title>
+	<style>
+		#header {
+			background-color:#FDCD8C;
+			height:100px;
+		}
+		#nav {
+			background-color:#FDE1B4;
+			width:200px;
+			float: right;
+		}
+		#section {
+			width:200px;
+			text-align:left;
+			float:left;
+			padding:10px;
+		}
+		#footer {
+			background-color:#FDCD8C;
+			height:100px;
+			clear:both;
+		}
+		#header, #nav, #section, #footer { text-align:center; }
+		#header, #footer { line-height:100px; }
+		#nav, #section { line-height:0; }
+
+		@media (max-width: 600px) {
+			#nav, #section {
+				width: 100%;
+				height: auto;
+			}
+		}
+	</style>
+</head>
+
+<body>
+
+	<img src = https://t1.daumcdn.net/cfile/tistory/9997644C5AF2495809 style= "width:150px; height:100px;">
+	<div id="header">
+		<h3>HEADER 영역</h3>
+	</div>
+	<div id="section">
+		<p></p>
+		<img src = https://cdn.pixabay.com/photo/2012/05/29/00/43/car-49278__480.jpg>
+		
+	<div id="footer">
+		<h3>FOOTER 영역</h3>
+	</div>
+
+
+
+
+</body>
+</html>
