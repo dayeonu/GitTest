@@ -4,11 +4,9 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="java.io.File"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="BankAccount"/>
     <fullyQualifiedTypeName name="Tv"/>
     <fullyQualifiedTypeName name="Sports"/>
@@ -30,12 +28,10 @@
     <fullyQualifiedTypeName name="com.ezen.ex01.ReadAgeException"/>
     <fullyQualifiedTypeName name="com.ezen.ex01.ExceptionTest01"/>
     <fullyQualifiedTypeName name="com.ezen.ex01.ExceptionTest02"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="com.ezen.ex01.ExceptionEx13"/>
     <fullyQualifiedTypeName name="com.sun.jdi.Value"/>
     <fullyQualifiedTypeName name="com.ezen.ex01.Value"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="java.lang.StrictMath"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="java.awt.Point"/>
@@ -44,4 +40,20 @@
     <fullyQualifiedTypeName name="org.w3c.dom.css.Rect"/>
     <fullyQualifiedTypeName name="com.ezen.ex01.Rectangle"/>
     <fullyQualifiedTypeName name="java.lang.Cloneable"/>
+    <fullyQualifiedTypeName name="Mytv2"/>
+    <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
+    <fullyQualifiedTypeName name="Circle"/>
+    <fullyQualifiedTypeName name="Shape.Rectangle"/>
+    <fullyQualifiedTypeName name="javax.naming.ldap.PagedResultsControl"/>
+    <fullyQualifiedTypeName name="SingletonTest"/>
+    <fullyQualifiedTypeName name="Singleton"/>
+    <fullyQualifiedTypeName name="java.lang.StrictMath"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="sun.java2d.opengl.WGLSurfaceData.WGLVSyncOffScreenSurfaceData"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.ezen01.StringTokenizerEx1"/>
+    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
 </qualifiedTypeNameHistroy>
