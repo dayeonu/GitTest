@@ -4,7 +4,7 @@ class ex7_22 {
 		Shape shape = new Circle( new Point(10,10),10);
 		System.out.println(shape.calcArea());
 
-		shape = new Rectangle(new Point(10,10), 10.2, 10,4);
+		shape = new Rectangle(new Point(10,10), 10.2, 10);
 		System.out.println(shape.calcArea());
 
 	}

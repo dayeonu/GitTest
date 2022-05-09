@@ -1,7 +1,6 @@
 
 public class abc {
 
-}
 
 class A{
 	int a;
@@ -10,7 +9,7 @@ class A{
 	public A(int a) {
 		this.a=a;
 	}
-}
+
 
 class B extends A{
 	int b;
@@ -20,7 +19,7 @@ class B extends A{
 		super(a);
 		this.b =b;
 	}
-}
+
 
 class C extends B{
 	int c;
@@ -29,8 +28,6 @@ class C extends B{
 		System.out.println("class c");
 	public C() {}
 	}
+
 }
-	
-}
-	
 	
