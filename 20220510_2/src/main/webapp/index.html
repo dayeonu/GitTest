@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<style type="text/css">
+	p{ <!-- p태그 들어간 모든 것에 사용 -->
+	background-color:yellow;
+	}
+	#id1{ 
+	color: yellow;
+	background-color: black;
+	}
+	
+	.class1{
+	color:red;
+	background-color: navy;
+	}
+	p.class1{
+	color: blue;
+	background-color: yellow;
+	}
+	
+	h1{
+	color:green;
+	
+	}
+	
+	ht[text]{
+		color:purple;
+	}
+	input[type="password"]{
+		backgroud-color:olive;
+	}
+
+	</style>
+</head>
+
+<!--  아이디는 중복되면 안되고, 속성과 스타일은 따로따로 관리하는게 좋다.  -->
+<body>
+
+	<P>p-list</P>
+	<p id = "id1">id1</p>
+	<p class = "class1">class1</p>
+	<p class ="class2"> class2</p>
+	
+	<h1> h1 </h1>
+	<h1 class ="class1"> h1 </h1>
+	<h1 text = "h1_text"> text속성 h1</h1>
+	<form>
+		<input type="password"> 
+	</form>
+	
+</body>
+</html>

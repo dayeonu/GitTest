@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>구조 선택자 </title>
+<style type="text/css">
+	th:first-child{border-radius: 10px 0px 0px 0px;}
+	th:last-child{border-radius: 0px 10px 0px 0px;}
+	tr:nth-child(2n){background-color: black;}
+	tr:nth-child(2n+1){background-color: hotpink;}
+	td:hover {background-color: orange;}
+	#left
+	{border-radius: 0px 0px 0px 10px;}
+	#right
+	{border-radius: 0px 0px 10px 0px;}
+</style>
+</head>
+<body>
+	<h1>구조 선택자</h1>
+<table>
+<tr>
+<th>안녕</th>
+<th>앙녕</th>
+<th>안뇽</th>
+</tr>
+
+<tr>
+<td>비타민</td>
+<td>먹자</td>
+<td>다연아</td>
+</tr>
+<tr>
+<td>Body</td>
+<td>Body</td>
+<td>Body</td>
+</tr>
+<tr>
+<td id="left">Body</td>
+<td>Body</td>
+<td id="right">Body</td>
+</tr>
+</table>
+</body>
+</html>

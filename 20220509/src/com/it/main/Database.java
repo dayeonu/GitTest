@@ -54,7 +54,9 @@ public class Database {
 				pstmt.setString(1, name); // 
 				
 				//4. 실행결과 받아온다. 
-				ResultSet rs = pstmt.executeQuery(); 
+				ResultSet rs = pstmt.executeQuery(); 	//  DBMS에게 검색(출력)을 할 때 사용하는 메소드
+														//- SELECT 구문 전용 메소드라고 볼 수 있음
+														//- 실행시 검색된 결과(Result Set)을 반환
 				
 				//5. 결과를 출력
 				
@@ -112,7 +114,7 @@ public class Database {
 		
 		
 		// 데이터 추가(Insert)
-		public void mydbInsert(int no, String name, String sex, String Content ) {
+		public void mydbInsert(int no, String name, String sex, String Content ) { // 2번 문장의 매개변수ㅇ랑 일치해야함 
 			
 			try {
 			
@@ -133,7 +135,7 @@ public class Database {
 			pstmt.setString(4, Content);
 			
 			//5. 실행
-			pstmt.executeUpdate(); //db 값을 변동하는 경우에는 executeUpdate 사용한다. 
+			pstmt.executeUpdate(); //db 값을 변동하는 경우에는 executeUpdate 사용한다.  DMBS에게 출력 이외의 행위(삽입, 수정, 삭제)를 할 때 사용하는 메소드
 				
 			}catch(Exception e) {
 				e.printStackTrace();
@@ -156,7 +158,7 @@ public class Database {
 				pstmt.setString(3, Content1); 
 				pstmt.setInt(4, no); 
 				
-				pstmt.executeUpdate();
+				pstmt.executeUpdate(); 
 				
 			}catch(Exception e) {
 				e.printStackTrace();		

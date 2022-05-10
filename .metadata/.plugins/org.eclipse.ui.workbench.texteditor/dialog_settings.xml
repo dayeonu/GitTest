@@ -1,30 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="try"/>
+		<item key="selection" value="&#x0D;&#x0A;ㄴㅇㄹㄴㄹㄴㅇㄹ"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="try"/>
-			<item value="member"/>
-			<item value="into me"/>
-			<item value="mydb"/>
-			<item value="style"/>
-			<item value="id"/>
-			<item value="foot"/>
-			<item value="logo"/>
-			<item value="7"/>
-			<item value="&lt;span&gt;"/>
-			<item value="havor"/>
-			<item value="nav"/>
-			<item value="dotted"/>
-			<item value="div"/>
-			<item value="duv"/>
+			<item value="&#x0D;&#x0A;ㄴㅇㄹㄴㄹㄴㅇㄹ"/>
+			<item value="ㄹ"/>
+			<item value="style&gt;"/>
+			<item value="sort"/>
+			<item value="time1"/>
+			<item value="executeUpdate"/>
+			<item value="query"/>
+			<item value="수정"/>
 		</list>
 		<list key="replacehistory">
+			<item value="time2"/>
 			<item value="25px"/>
 			<item value="td"/>
 			<item value="th"/>
@@ -43,5 +37,9 @@
 		<item key="DIALOG_WIDTH" value="288"/>
 		<item key="DIALOG_HEIGHT" value="391"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="228"/>
+		<item key="DIALOG_Y_ORIGIN" value="140"/>
 	</section>
 </section>
