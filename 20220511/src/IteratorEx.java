@@ -1,9 +1,7 @@
 //The import java.util.Iterator conflicts with a type defined in the same file
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
-public class Iterator {
+public class IteratorEx {
 
    public static void main(String[] args) {
       List<String> list = new LinkedList<>();
