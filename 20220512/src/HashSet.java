@@ -38,7 +38,7 @@ class Car{
 //			return false;
 		
 		//3항 연산자로 비교 하기  
-		return (model.equals(m) && color.equals(c) && price.equals(price)) ? true : false;
+		return (model.equals(m) && color.equals(c) && price==(p)) ? true : false;
 	}
 	
 //}
@@ -72,6 +72,8 @@ public class HastSexEx01 {
 
 	public static void main(String[] args) {
 
+		
+		//set을 사용한다는 건, 중복을 허용하지 않겠다라는 의도가 있는 것.
 		Set<Car> set = new HashSet<Car>();
 		
 		//타입을 Num으로 줘서 아래 오류 생긴다.
