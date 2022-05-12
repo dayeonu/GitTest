@@ -32,6 +32,7 @@ public class TreeSetEx2 {
 		tree.add(new Person2("kim", 29));  
 		tree.add(new Person2("kim", 29)); //중복데이타
 		tree.add(new Person2("kim", 29)); //중복데이타 
+		tree.add(new Person2("kim", 20)); //중복데이타 
 		
 		for(Person2 n : tree)
 			System.out.println(n);

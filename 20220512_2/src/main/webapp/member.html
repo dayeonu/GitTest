@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> 쇼핑몰 회원관리 </title>
+<style>
+*{margin :0; padding:0;}
+a{text-decoration: none;}
+ul li{ list-style:none;}
+header { height: 150px; background-color: blue; font-size:80px; color:white; text-align:center; line-height: 150px;}
+nav { height: 70px; background-color: grey; font-size:50px; color:white; text-align:center;}
+nav ul li {line-height: 70px; float:left; margin-right:30px;  }
+section p {text-align: center; font-size: 50px; line-height:50px;}
+section table {line-height:50px; margin: 0 auto; width:750px; height: 300px; background-color: coral; font-size:30px; color:white; text-align:center;}
+input {height: 15px; padding: 10px 20px; display: block; margin : 0 auto;}
+section {background-color: teal;}
+footer {background-color: lime; height:400px; font-size: 50px; text-align: center;}
+button {width : 100px; height: 50px; font-size: 40px; color:red;}
+</style>
+</head>
+<body>
+
+<header>쇼핑몰 회원관리 ver1.0</header>
+<nav> 
+<ul id = "topMenu"> 
+	<li><a href="http://localhost:8181/20220512_2/member.html"> 회원등록 </a></li>
+	<li><a href="http://localhost:8181/20220512_2/memberEdit.html"> 회원목록조회/수정</a></li>
+	<li><a href="http://localhost:8181/20220512_2/sales.html"> 회원매출조회</a></li>
+	<li><a href="http://localhost:8181/20220512_2/home.html"> 홈으로</a></li>
+</ul>
+</nav>
+
+<section>
+<p>홈쇼핑 회원등록</p>
+<table border="1">
+	<tr>
+		<td>회원번호(자동발생)</td>
+		<td><input type = "text" id="noform" > </td>
+		
+	</tr>
+	<tr>
+		<td>회원성명</td>
+		<td><input type = "text" id="nameform"  > </td>
+	</tr>
+	<tr>
+		<td>회원전화</td>
+		<td><input type = "text" id="phoneform"> </td>
+	</tr>
+	<tr>
+		<td>회원주소</td>
+		<td><input type = "text" id="addrform"> </td>
+	</tr>	
+	<tr>
+		<td>가입일자</td>
+		<td><input type = "text" id="joinDateform"> </td>
+	</tr>	
+	<tr>
+		<td>고객등급[A:VIP B:일반 C:직원]</td>
+		<td><input type = "text" id="gradeform"> </td>
+	</tr>	
+	<tr>
+		<td>도시코드</td>
+		<td><input type = "text" id="zipCodeform"> </td>
+	</tr>	
+	<tr>
+		<th colspan ="2"><button type="submit" >등록</button><button type="button" >조회</button></th>
+	</tr>
+</table>
+
+</section>
+
+
+
+<footer>
+<div id = "footer">
+HRDKOREA Copyrightⓒ2016 All rights reserved. Human Resources Development Service of Korea
+</div>
+</footer>
+
+
+</body>
+</html>

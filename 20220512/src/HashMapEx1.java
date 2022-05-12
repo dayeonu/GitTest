@@ -1,13 +1,24 @@
-import java.util.HashMap;
+import java.util.Comparator;
 import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeMap;
+
+
+class AgeDesc implements Comparator<Integer>{
+
+	//내림차순 사용시 
+	@Override
+	public int compare(Integer o1, Integer o2) {
+		return o2 - o1;
+	}
+}
+
 
 public class HashMapEx1 {
 	public static void main(String[] args) {
 
 //		HashMap<Integer, String> map = new HashMap<Integer, String>();
-		TreeMap<Integer, String> map = new TreeMap<Integer, String>();
+		TreeMap<Integer, String> map = new TreeMap<Integer, String>(new AgeDesc()); //내림차순 정렬시 사용
 		
 		//중복제거(key, value)
 		map.put(3, "kim");
